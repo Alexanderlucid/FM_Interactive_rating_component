@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 15%);
+    --very-dark-blue:hsl(216, 12%, 8%);
+    --orange:hsl(25, 97%, 53%);
+
+--contrast-dark-blue: hsl(213, 19%, 18%);
+}
+html{
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    min-width: 100%;
+    background-color: var(--very-dark-blue);
+    color: var(--White);
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    width:28%;
+    height: fit-content;
+    background-color: var(--dark-blue);
+    border-radius:1rem;
+    padding: 1.5rem;
+}
+.img-container{
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: var(--contrast-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+.star-icon{
+    width: 1.0rem;
+    height: 1.0rem;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1.0rem 0;
+}
+p{
+    /* line-height: 1.5rem; */
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+.rating-state{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.rating-option{
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: var(--contrast-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+}
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+.attribution a {
+    color: var(--orange);
+}
+
+/* Mobile Media Queries */
+@media (max-width: 600px) {
+    html{
+        font-size: 18px;
+    }
+    .attribution {
+        position: relative;
+        bottom: -50px;
+        left: 0;
+        right:0;
+     }
+}
