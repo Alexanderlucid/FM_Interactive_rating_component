@@ -114,7 +114,6 @@ p{
 .submit:focus,.submit:active{
     background-color: var(--orange);
     outline: none;
-
 }
 /* Attribution */
 .attribution {
@@ -148,6 +147,10 @@ p{
     .rating-option{
         width: 2.0rem;
         height: 2.0rem;
+    }
+    .submit:focus,.submit:active{
+        background-color: var(--orange);
+        outline: none;
     }
     .attribution {
         position: relative;
