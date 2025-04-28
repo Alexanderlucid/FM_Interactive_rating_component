@@ -111,7 +111,7 @@ p{
 .submit:hover{
     background-color: var(--White)
 }
-.submit:active,.submit:focus{
+.submit:focus,.submit:active{
     background-color: var(--orange);
     outline: none;
 
@@ -146,8 +146,8 @@ p{
         width:90%;
     }
     .rating-option{
-        width: 1.7rem;
-        height: 1.7rem;
+        width: 2.0rem;
+        height: 2.0rem;
     }
     .attribution {
         position: relative;
