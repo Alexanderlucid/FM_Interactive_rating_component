@@ -127,6 +127,16 @@ p{
     html{
         font-size: 18px;
     }
+    body{
+        min-width: 100%;
+        height: auto;
+    }
+    .container{
+        width: 90%;
+    }
+    .card-container{
+        width:90%;
+    }
     .attribution {
         position: relative;
         bottom: -50px;
