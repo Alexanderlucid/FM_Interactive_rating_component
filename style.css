@@ -96,6 +96,7 @@ p{
     color: var(--contrast-dark-blue);
 }
 .submit{
+    border: none;
     outline: none;
     width: 100%;
     border-radius: 2rem;
@@ -134,7 +135,7 @@ p{
     }
     .container{
         width: 90%;
-        margin-top: 3.0rem;
+        margin-top: 5.0rem;
     }
     .card-container{
         width:90%;
