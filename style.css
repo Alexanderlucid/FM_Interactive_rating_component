@@ -97,7 +97,6 @@ p{
 }
 .submit{
     border: none;
-    outline: none;
     width: 100%;
     border-radius: 2rem;
     padding: 0.8rem 0;
@@ -107,9 +106,15 @@ p{
     font-size: 0.8rem;
     cursor: pointer;
     background-color: var(--orange);
+    transition: background-color 0.3s;
 }
 .submit:hover{
     background-color: var(--White)
+}
+.submit:active,.submit:focus{
+    background-color: var(--orange);
+    outline: none;
+
 }
 /* Attribution */
 .attribution {
@@ -139,6 +144,10 @@ p{
     }
     .card-container{
         width:90%;
+    }
+    .rating-option{
+        width: 1.7rem;
+        height: 1.7rem;
     }
     .attribution {
         position: relative;
